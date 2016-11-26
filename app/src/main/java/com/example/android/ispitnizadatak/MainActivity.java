@@ -1,6 +1,7 @@
 package com.example.android.ispitnizadatak;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -41,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch ( item.getItemId() ) {
+            case R.id.action_add:
+                callAddActivity();
+                break;
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -74,6 +80,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void callAddActivity() {
+        Intent intent = new Intent( MainActivity.this, AddActivity.class );
+        startActivity( intent );
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        refreshNoteList();
     }
 }
