@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_d8ec16b2c4349911443d1882d8c5f34c2e851d22.jar" />
+    </item>
+    <item
+        jar="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_b73816ab4046f218149d8263f5badab8ecb5fa36.jar" />
+    </item>
+    <item
+        jar="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_c34a71c107f88a0375af2b516f3a4ba6ab172539.jar" />
+    </item>
+    <item
+        jar="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_12b79d157dca89971009b455c523f57b92918669.jar" />
+    </item>
+    <item
+        jar="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_21dd663faabdf8a05dec17db3606b6da3b98e28b.jar" />
+    </item>
+    <item
+        jar="/home/android/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48_f639df9466dac16d535c18ffa3cc31eb2e473397.jar" />
+    </item>
+    <item
+        jar="/home/android/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_321abd5a76fccf756224b2aa4443ccdcec95c8ea.jar" />
+    </item>
+    <item
+        jar="/home/android/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/home/android/androidAppDev/FilipSeter/IspitniZadatak/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48_406a5382128237a6c3016602387da702a6ac71cf.jar" />
+    </item>
+
+</items>
