@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -58,6 +60,13 @@ public class MainActivity extends AppCompatActivity {
             list = getDatabaseHelper().getNotesDao().queryForAll();
             adapter = new ArrayAdapter<>( this, R.layout.textview_list_item, list );
             listView.setAdapter( adapter );
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Notes note = (Notes) parent.getItemAtPosition( position );
+                    callDetailsActivity( note.getId() );
+                }
+            });
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -88,5 +97,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         refreshNoteList();
+    }
+
+    private void callDetailsActivity( int id ) {
+        Intent intent = new Intent( MainActivity.this, DetailsActivity.class );
+        intent.putExtra("id", id );
+        startActivity( intent );
     }
 }
